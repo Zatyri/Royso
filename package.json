@@ -1,0 +1,19 @@
+{
+  "name": "royso",
+  "version": "1.0.0",
+  "description": "Website for the island Röysö",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zatyri/Royso.git"
+  },
+  "author": "Oskar Gustafsson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zatyri/Royso/issues"
+  },
+  "homepage": "https://github.com/Zatyri/Royso#readme"
+}

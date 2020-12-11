@@ -1,0 +1,47 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+main {
+  width: 100%;
+  padding: 1em 3em;
+}
+
+#headerImage {  
+  margin: 1em;   
+  background-image: url('../media/pictures/pexels-pixabay-258109.jpg');
+  height: 350px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.primaryButton {
+  background-color: rgb(248,248,248);
+  border: 4px solid black;  
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+/* Navbar */
+nav .container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0.5em 0;
+  padding: 0.5em;  
+}
