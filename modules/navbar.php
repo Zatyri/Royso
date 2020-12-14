@@ -1,8 +1,11 @@
-<nav>
+<div>
+  <h1>Röysö</h1>
   <div class='container'>
-    <button type="button" class="btn btn-outline-secondary">Hem</button>
-    <button type="button" class="btn btn-outline-secondary">Test2</button>
-    <button type="button" class="btn btn-outline-secondary">Test3</button>
+    <button class="primaryButton">HEM</button>
+    <button class="primaryButton">BOKEN</button>
+    <button class="primaryButton">OM RÖYSÖ</button>
+    <button class="primaryButton">KÖP BOKEN</button>
+
 
   </div>
-</nav>
+</div>
