@@ -8,6 +8,6 @@
     </div>
   </div>
   <div>
-    <img id='headerImage' src="../media/pictures/pexels-pixabay-258109.jpg" alt='bild av Röysö'></img>
+    <img id='headerImage' src="./media/pictures/boken.png" alt='bild av Röysö'></img>
   </div>
 </div>
