@@ -1,11 +1,9 @@
 <div>
   <h1>Röysö</h1>
   <div class='container'>
-    <button class="primaryButton">HEM</button>
-    <button class="primaryButton">BOKEN</button>
-    <button class="primaryButton">OM RÖYSÖ</button>
-    <button class="primaryButton">KÖP BOKEN</button>
-
-
+    <a href='index.php' id='homeButton' class="primaryButton">HEM</a>
+    <a href='book.php' id='bookButton' class="primaryButton">BOKEN</a>
+    <a href='royso.php' id='roysoButton' class="primaryButton">OM RÖYSÖ</a>
+    <a href='shop.php' id='shopButton' class="primaryButton">KÖP BOKEN</a>
   </div>
 </div>

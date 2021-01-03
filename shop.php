@@ -12,21 +12,18 @@
 </head>
 
 <body>
-<div class='frontpage'>
-    <nav>
-      <?php include './modules/navbar.php'; ?>
-    </nav>
-   
-    <header>
-      <?php include './modules/header.php'; ?>
-    </header>
-    <main>
-      <?php include './modules/main.php'; ?>
-    </main>
-    <footer>
-      <?php include './modules/footer.php'; ?>
-    </footer>
-  </div>
+  <nav>
+    <?php include './modules/navbar.php'; ?>
+  </nav>
+  <main class='mainShop'>
+    <div class='container'>
+    <div>På kommande</div>
+    </div>
+    
+  </main>
+  <footer>
+    <?php include './modules/footer.php'; ?>
+  </footer>
 </body>
 <script type='text/javascript' src='./scripts/main.js'></script>
 

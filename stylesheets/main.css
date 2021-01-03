@@ -1,61 +1,70 @@
 :root {
-  --main-color: rgb(248,248,248)
+  --main-color: rgb(248, 248, 248);
+  --accent-color: rgb(225,225,225);  
+}
+
+html{
+  height: 100%;
 }
 
 body {
   width: 100%;
   height: 100%;
   margin: 0 !important;
-  padding: 0;
-  background: url(../media/pictures/segelbat.jpg);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; 
+  padding: 0;  
   font-family: 'Lato', sans-serif;
+  background-color: var(--main-color);
 }
 
-h1 {
-  font-family: 'Cookie', cursive;
+h1 {  
   font-size: 4em;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin: 0 1em;
+}
+
+img {
+  max-width: 100%;  
 }
 
 /* Buttons */
 .primaryButton {
   font-family: 'Lato', sans-serif !important;
   background-color: unset;
-  border: unset;  
+  border: unset;
   margin: 0.2em;
-  padding: 0.5em 0.5em 0.1em 0.5em;  
+  padding: 0.5em 0.5em 0.1em 0.5em;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 1.5em;
   color: rgb(170, 170, 170);
   cursor: pointer;
-  border-bottom: 2px  solid transparent;
+  border-bottom: 2px solid transparent;
   transition: 0.2s all;
-  
 }
 
-.primaryButton:hover, 
+.primaryButton:hover,
 .primaryButton:focus {
   outline: unset !important;
   color: rgb(0, 0, 0);
   font-weight: bold;
-  border-bottom: 2px solid rgb(0, 0, 0)
+  border-bottom: 2px solid rgb(0, 0, 0);
 }
 
 .primaryButton:active {
-  box-shadow: unset; 
+  box-shadow: unset;
   color: rgb(0, 0, 0);
   font-weight: bold;
-  border-bottom: 2px  solid rgb(0, 0, 0);
+  border-bottom: 2px solid rgb(0, 0, 0);
   transform: scale(0.95);
 }
 
 /* Navbar */
-nav {  
+nav {
   width: 100%;
   text-align: center;
   background-color: rgb(255, 255, 255);
@@ -69,13 +78,12 @@ nav h1 {
 
 nav .container {
   width: 100%;
-  margin: 0 0 0.5em 0; 
-  
+  padding: 0 0 0.5em 0;
+
   display: flex;
   justify-content: space-around;
   align-items: center;
   z-index: 99;
-
 }
 
 /* Header */
@@ -86,49 +94,66 @@ header {
   padding-bottom: 4em;
   display: flex;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
 }
 
-header .container {  
+header .container {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  margin: 6em 5% 0;    
-  display: flex;  
+  margin: 6em 5% 0;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;  
-  
+  flex-wrap: wrap;
 }
 
 header .container div {
-  flex: 1 1 0px;  
+  flex: 1 1 0px;
   text-align: center;
   max-width: 500px;
 }
 
-#headerImage {  
+#headerImage {
   position: relative;
   min-width: 360px;
   max-width: 100%;
 }
 
 .headerTextContainer {
+  position: relative;
   
+}
+
+.headerTextContainer::before {
+  content: '';
+  position: absolute;  
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
   background-color: rgb(60, 60, 60);
-  opacity: 0.7;  
+  background-size: cover;
+  opacity: 0.7;
 }
 
 .headerText {
+  position: relative;  
   margin: 1em;
-  padding: 1em;     
+  padding: 1em;
   color: var(--main-color);
+}
+
+.headerText img {  
+  max-width: 350px;  
+  
 }
 
 /* Main */
 main {
-  width: 100%; 
+  width: 100%;
+  padding: 1em 0;  
 }
 
 main .container {
@@ -136,16 +161,15 @@ main .container {
   margin-left: auto;
   margin-right: auto;
   background-color: var(--main-color);
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   justify-content: space-around;
-  flex-wrap: wrap;
 }
 
 main .container > div {
   flex: 1 1 0px;
   margin: 2em;
-  padding: 1em;
+  padding: 1em;  
 }
 
 main .container .header {
@@ -163,23 +187,68 @@ main .container .header h2 {
 }
 
 #authorPicture {
-  max-width: 128px; 
+  max-width: 128px;
   float: right;
-  margin: 1em
-  
+  margin: 1em;
 }
 
+.frontpage {     
+  background: url(../media/pictures/segelbat.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 /* Footer */
 footer {
-  margin: 1em 0 0 0;
+  padding: 1em 0 0 0;
   background-color: var(--main-color);
 }
 
 footer .container {
   display: flex;
   justify-content: space-around;
-  padding: 0.5em;
+  padding: 1em;
 }
 
+footer .container .navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+footer .container .navigation a {
+  margin: 0.2em 0;
+  transition: 0.1s all;
+}
+
+footer .container .navigation a:hover {
+  transform: scale(0.9);
+}
+
+footer .container .navigation a:focus {
+  transform: scale(0.8);
+}
+
+/* Book */
+
+.mainBook {
+  background-color: var(--accent-color);
+}
+
+/* Röysö */
+
+.mainRoyso {
+  background-color:  var(--accent-color);
+}
+
+.karta {
+  margin: 0.5em 0;
+}
+
+/* shop */
+.mainShop {
+  background-color:  var(--accent-color);
+}
