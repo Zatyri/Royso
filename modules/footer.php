@@ -9,7 +9,7 @@
       <a href='shop.php'>KÖP BOKEN</a>
     </div>
     <div>
-      <button id='contactButton'>Kontakta oss</button>   
+      <button id='contactButton' class="secondaryButton contactButton">Kontakta oss</button>   
     </div>
     <?php 
       include './modules/contact.php';

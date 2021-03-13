@@ -91,26 +91,32 @@ function sendMail($email)
 
 <section id='contactForm'>
   <i id='closeContactForm' class="material-icons" style="font-size:36px">arrow_forward</i>
-  <h4>Kontakta oss</h4>
-  <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
-    <div class="inputContainer">
-      <label>Namn<input type="text" name="name" value="<?php echo isset($_POST['name']) ? $_POST['name'] : '' ?>">
-      <div <?php echo $errors['name'] ? "class='contactErrorMsg'" : '' ?>><?php echo ($errors['name']) ?></div></label>
-    </div>
-    <div class="inputContainer">
-      <label>E-post<input type="email" name="mail" value="<?php echo isset($_POST['mail']) ? $_POST['mail'] : '' ?>">
-      <div <?php echo $errors['mail'] ? "class='contactErrorMsg'" : '' ?>><?php echo ($errors['mail']) ?></div></label>
-    </div>
-    <div class="inputContainer">
-      <label>Rubrik<input type="text" name="subject" value="<?php echo isset($_POST['subject']) ? $_POST['subject'] : '' ?>">
-      <div <?php echo $errors['subject'] ? "class='contactErrorMsg'" : '' ?>><?php echo ($errors['subject']) ?></div></label>
-    </div>
-    <div class="inputContainer">
-      <label>Meddelande<textarea type="text" name="message" value="<?php echo isset($_POST['message']) ? $_POST['message'] : '' ?>"></textarea>
-      <div <?php echo $errors['message'] ? "class='contactErrorMsg'" : '' ?>><?php echo ($errors['message']) ?></div></label>
-    </div>
-    <div class='inputContainer'>
-      <input id='contactSubmitButton' name='contactSubmitButton' class='' type="submit" value='Skicka meddelandet'></input>
-    </div>
-  </form>
+  <div>
+    <h4>Kontakta oss</h4>
+    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+      <div class="inputContainer">
+        <label>Namn<input type="text" name="name" value="<?php echo isset($_POST['name']) ? $_POST['name'] : '' ?>">
+          <div <?php echo $errors['name'] ? "class='contactErrorMsg'" : '' ?>><?php echo ($errors['name']) ?></div>
+        </label>
+      </div>
+      <div class="inputContainer">
+        <label>E-post<input type="email" name="mail" value="<?php echo isset($_POST['mail']) ? $_POST['mail'] : '' ?>">
+          <div <?php echo $errors['mail'] ? "class='contactErrorMsg'" : '' ?>><?php echo ($errors['mail']) ?></div>
+        </label>
+      </div>
+      <div class="inputContainer">
+        <label>Rubrik<input type="text" name="subject" value="<?php echo isset($_POST['subject']) ? $_POST['subject'] : '' ?>">
+          <div <?php echo $errors['subject'] ? "class='contactErrorMsg'" : '' ?>><?php echo ($errors['subject']) ?></div>
+        </label>
+      </div>
+      <div class="inputContainer">
+        <label>Meddelande<textarea type="text" name="message" value="<?php echo isset($_POST['message']) ? $_POST['message'] : '' ?>"></textarea>
+          <div <?php echo $errors['message'] ? "class='contactErrorMsg'" : '' ?>><?php echo ($errors['message']) ?></div>
+        </label>
+      </div>
+      <div class='inputContainer'>
+        <input id='contactSubmitButton' name='contactSubmitButton' class='secondaryButton' type="submit" value='Skicka meddelandet'></input>
+      </div>
+    </form>
+  </div>
 </section>

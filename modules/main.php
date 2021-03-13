@@ -1,4 +1,4 @@
-<div class='container'>
+<div class='container mainText'>
   <div>
     <article>
       <div class='header'>

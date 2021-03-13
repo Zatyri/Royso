@@ -8,7 +8,7 @@ include './modules/head.php';
         <?php include './modules/shopForm.php'; ?>
       </article>
       <article class='bookPicture'>
-        <img id='headerImage' src="./media/pictures/bokenbild.png" alt='bild av Röysö'></img>
+        <img id='headerImage' class='shopImage' src="./media/pictures/bokenbild.png" alt='bild av Röysö'></img>
       </article>
     </div>
 </div>

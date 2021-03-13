@@ -93,7 +93,7 @@ if (filter_has_var(INPUT_POST, 'submitButton')) {
       <div <?php echo $errors['mail'] ? "class='errorMsg'" : '' ?>><?php echo ($errors['mail']) ?></div></label>
     </div>
     <div class='inputContainer'>
-      <button name='submitButton' class='' type="submit" value='submit'>Beställ boken</button>
+      <button name='submitButton' class='secondaryButton' type="submit" value='submit'>Beställ boken</button>
     </div>
   </form>
 </div>
