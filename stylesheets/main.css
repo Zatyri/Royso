@@ -1,9 +1,9 @@
 :root {
   --main-color: rgb(248, 248, 248);
-  --accent-color: rgb(225,225,225);  
+  --accent-color: rgb(225, 225, 225);
 }
 
-html{
+html {
   height: 100%;
 }
 
@@ -11,13 +11,17 @@ body {
   width: 100%;
   height: 100%;
   margin: 0 !important;
-  padding: 0;  
+  padding: 0;
   font-family: 'Lato', sans-serif;
   background-color: var(--main-color);
 }
 
-h1 {  
+h1 {
   font-size: 4em;
+  margin: 0em;
+  padding: 0.2em;
+  padding-bottom: 0.2em;
+  text-align: center;
 }
 
 a {
@@ -27,7 +31,23 @@ a {
 }
 
 img {
-  max-width: 100%;  
+  max-width: 100%;
+}
+
+.background {
+  width: 100%;
+  background-color: var(--accent-color);
+}
+
+.errorMsg, .contactErrorMsg {
+  background-color: rgb(255, 255, 153);
+  text-align: center;
+  color: rgb(153, 102, 51);
+  font-weight: normal;
+  padding: 5px;
+  margin-top: 0.2em;
+  border-radius: 5px;
+  border: 1px solid rgb(153, 102, 51);
 }
 
 /* Buttons */
@@ -55,6 +75,13 @@ img {
   border-bottom: 2px solid rgb(0, 0, 0);
 }
 
+.primaryButtonFocus {
+  outline: unset !important;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+
 .primaryButton:active {
   box-shadow: unset;
   color: rgb(0, 0, 0);
@@ -65,9 +92,7 @@ img {
 
 /* Navbar */
 nav {
-  width: 100%;
-  text-align: center;
-  background-color: rgb(255, 255, 255);
+  width: 100%; 
 }
 
 nav h1 {
@@ -79,19 +104,41 @@ nav h1 {
 nav .container {
   width: 100%;
   padding: 0 0 0.5em 0;
-
   display: flex;
   justify-content: space-around;
   align-items: center;
   z-index: 99;
 }
 
+.navbar .menuIcon {
+  display: none;  
+  position: fixed;  
+  right: 0px;
+  top: 50%;
+  width: 48px;
+  height: 48px;
+  background-color: var(--main-color);  
+  padding: 2px;
+  margin: 3px;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgb(0, 0, 0);
+}
+
+.navbar .menuIcon div {
+  width: 48px !important;
+  height: 48px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 /* Header */
 header {
   width: 100%;
+  max-width: 1600px;
   margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 4em;
+  margin-right: auto;  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -101,34 +148,31 @@ header .container {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  margin: 6em 5% 0;
+  margin: 2em 5% 0;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
 
 header .container div {
   flex: 1 1 0px;
-  text-align: center;
-  max-width: 500px;
+  text-align: center;  
 }
 
-#headerImage {
-  position: relative;
-  min-width: 360px;
-  max-width: 100%;
+#headerImage { 
+  
+  padding: 2em 0;
 }
 
 .headerTextContainer {
   position: relative;
-  
 }
 
 .headerTextContainer::before {
   content: '';
-  position: absolute;  
+  position: absolute;
   top: 0px;
   right: 0px;
   bottom: 0px;
@@ -138,22 +182,34 @@ header .container div {
   opacity: 0.7;
 }
 
+.headerTextContainer h3 {
+  font-size: 1.7em;
+  margin: 0;
+}
+
 .headerText {
-  position: relative;  
+  position: relative;
   margin: 1em;
   padding: 1em;
   color: var(--main-color);
+  font-size: 1.5em;
+  font-weight: 500;
 }
 
-.headerText img {  
-  max-width: 350px;  
-  
+.headerText img {
+  /*
+  max-width: 350px;
+
+*/
 }
 
 /* Main */
 main {
   width: 100%;
-  padding: 1em 0;  
+  max-width: 1600px;
+  padding: 1em 0;
+  margin-left: auto;
+  margin-right: auto;  
 }
 
 main .container {
@@ -161,15 +217,20 @@ main .container {
   margin-left: auto;
   margin-right: auto;
   background-color: var(--main-color);
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: column;  
   justify-content: space-around;
 }
 
-main .container > div {
+main .container article {
   flex: 1 1 0px;
-  margin: 2em;
-  padding: 1em;  
+  margin: 0em 1em;
+  padding: 1em;
+}
+
+main .container > div {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 main .container .header {
@@ -192,12 +253,14 @@ main .container .header h2 {
   margin: 1em;
 }
 
-.frontpage {     
-  background: url(../media/pictures/segelbat.jpg);
+.frontpage {
+  
+  background-color: var(--accent-color);  
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 
 /* Footer */
@@ -225,11 +288,11 @@ footer .container .navigation a {
 }
 
 footer .container .navigation a:hover {
-  transform: scale(0.9);
+  transform: scale(1.1);
 }
 
 footer .container .navigation a:focus {
-  transform: scale(0.8);
+  transform: scale(0.95);
 }
 
 /* Book */
@@ -241,14 +304,184 @@ footer .container .navigation a:focus {
 /* Röysö */
 
 .mainRoyso {
-  background-color:  var(--accent-color);
+  background-color: var(--accent-color);
+  width: 100% !important;
 }
 
 .karta {
   margin: 0.5em 0;
 }
 
+#googleMap {
+  margin-top: 1em;
+  width: 100%;
+  height: 400px;
+}
+
 /* shop */
 .mainShop {
-  background-color:  var(--accent-color);
+  background-color: var(--accent-color);
+}
+
+.inputForm {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5em !important;
+}
+
+.inputForm form {
+  width: 50%;
+  background-color: var(--accent-color);
+  padding: 0.5em 5em 2em;
+  border-radius: 30px;
+  box-shadow: 1px 1px 10px black;
+}
+
+.inputForm .inputContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5em;
+}
+
+.inputContainer {
+  width: 100%;
+  font-weight: bold;
+}
+
+.inputContainer label {
+  width: 100%;
+  margin-bottom: 0.2em;
+  padding: 0.5em;
+}
+
+.inputContainer input {
+  width: 100%;
+  padding: 5px 2px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;  
+}
+
+.inputContainer input:focus {
+  outline: unset !important;
+}
+
+.mainShop img {
+  margin: 1em;
+   
+}
+
+.mainShop .bookPicture {
+  padding: 0 6em;
+  display: flex;
+  justify-content: center;
+}
+
+/* Contact form */
+
+#contactForm {
+  position: fixed;
+  bottom: 0px;
+  right: -450px;
+  background-color: var(--accent-color);
+  margin: 1em 0em 1em;
+  padding: 1em 2em;
+  box-shadow: 1px 1px 10px black;
+  border-radius: 20px 0 0 20px;
+  transition: right 1s;
+}
+
+.contactVisible {
+  right: 0px !important;
+}
+
+#closeContactForm {
+  cursor: pointer;
+}
+
+#closeContactForm:hover {
+  transform: scale(1.1);
+}
+
+#contactForm h4 {
+  margin-top: 0.2em;
+}
+
+#contactForm textarea {
+  width: 100%;
+  height: 150px;
+  padding: 5px 5px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
+#contactForm input {
+  width: 100%;
+  padding: 5px 2px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;  
+}
+
+#contactForm label {
+  padding: 10px 0px; 
+  margin: 10px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .frontpage {
+    background: unset;
+    background-color: var(--accent-color);    
+  }
+
+  /* navbar */
+  .navbar .menuIcon {
+    display: block;
+    z-index: 99;  
+  }
+
+  .navbar {
+    overflow: hidden;
+    position: relative;     
+  }
+
+  .navbar #links {
+     display: none;
+     position: fixed;
+     top: 0;
+     width: 100%;
+     height: 100vh;
+     background-color: var(--main-color);
+     flex-direction: column;
+     justify-content: center;
+  }
+
+  /* header */
+  header .container {
+    margin-top: 3em;
+    flex-direction: column;
+  }
+
+  header {
+    padding: 0;
+  }
+
+  /* main */
+  main .container {
+   grid-template-columns: 1fr;
+   width: 95%;
+  }
+
+  main .container div {
+    margin: 0 0.5em;
+  }
+
 }
