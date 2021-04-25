@@ -8,7 +8,7 @@ $errors = [
 ];
 
 $email = [
-  'to' => 'oskar@palakoodia.fi',
+  'to' => 'oskar@royso.fi',
   'from' => '',
   'subject' => '',
   'name' => '',

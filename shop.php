@@ -5,7 +5,7 @@ include './modules/head.php';
   <main class='mainShop'>
     <div class='container'>
       <article>
-        <?php include './modules/shopForm.php'; ?>
+        <p>På kommande</p>
       </article>
       <article class='bookPicture'>
         <img id='headerImage' class='shopImage' src="./media/pictures/bokenbild.png" alt='bild av Röysö'></img>

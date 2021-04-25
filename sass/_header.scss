@@ -1,0 +1,140 @@
+/* Header */
+header {
+  width: 100%; 
+}
+
+header .container {
+  background-image: url('../media/pictures/Skuta_Large.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 1080px;
+  max-width: 1700px;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+header .container div {
+  flex: 1 1 0px;
+  text-align: center;
+}
+
+#headerImage {
+  margin: 1em 0 0;
+  border: 4px solid black;
+}
+
+.headerTextContainer {
+  position: relative;
+  top:70px;
+  left:40px;
+  width: 45%;
+}
+
+.headerTextContainer::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgb(250, 250, 250);
+  background-size: cover;
+  opacity: 0.6;
+}
+
+.headerText {
+  position: relative;
+  margin: 1em;
+  padding: 1em;  
+  font-size: 1.5em;
+  font-weight: 600;
+  h3 {
+    margin: 0.2em 0;
+    font-size: 2em;
+  }
+  h4 {
+    margin: 0.2em 0;
+  }
+  h5 {
+    margin: 0.2em 0;    
+  }
+}
+
+@media (max-width: 1048px){
+  header .container {
+    background-image: url('../media/pictures/Skuta_Medium.jpg');
+  }
+
+  .headerTextContainer {
+    width: 55%;
+  }
+
+  .headerText {
+    h3 {
+      font-size: 1.5em;
+    }
+  }
+}
+
+@media (max-width: 900px){
+  header .container {
+    background-image: url('../media/pictures/Skuta_Small.jpg');
+  }
+  .headerTextContainer {
+    width: 67%;
+  }
+}
+
+@media (max-width: 648px){
+  header .container {
+    background-image: none;
+    background-position: unset;
+    background-repeat: unset;
+    background-size: unset;
+    height: unset;
+    max-width: unset;
+    margin-left: unset;
+    margin-right: unset; 
+  }
+
+  .headerTextContainer::before {
+    content: none;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgb(250, 250, 250);
+    background-size: cover;
+    opacity: 0.6;
+  }
+
+  .headerTextContainer {
+    position: relative;
+    top:unset;
+    left:unset;
+    width: unset;
+  }
+
+  .headerText {
+    position: relative;
+    margin: 0.5em;
+    padding: 0.5em;  
+    font-size: 1em;
+    font-weight: 600;
+    h3 {
+      margin: 0.2em 0;
+      font-size: 1.5em;
+    }
+    h4 {
+      margin: 0.2em 0;
+      font-size: 1em;
+    }
+    h5 {
+      margin: 0.2em 0; 
+      font-size: 1em;   
+    }
+  }
+}
+

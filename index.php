@@ -4,10 +4,7 @@
   <div class='frontpage'>
     <header >    
         <?php include './modules/header.php'; ?>      
-    </header>
-    <main>
-      <?php include './modules/main.php'; ?>
-    </main>   
+    </header>   
   </div>
   <?php
   include './modules/footer.php';

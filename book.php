@@ -3,9 +3,7 @@ include './modules/head.php';
 ?>
 <div class="background">
   <main class='mainBook'>
-    <div class='container'>
-      <p>På kommande</p>
-    </div>
+    <?php include './modules/main.php'; ?>
   </main>
 </div>
 <?php
