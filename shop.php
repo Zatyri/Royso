@@ -8,7 +8,7 @@ include './modules/head.php';
         <p>På kommande</p>
       </article>
       <article class='bookPicture'>
-        <img id='headerImage' class='shopImage' src="./media/pictures/bokenbild.png" alt='bild av Röysö'></img>
+        <img class='shopImage' src="./media/pictures/bokenbild.png" alt='bild av Röysö'></img>
       </article>
     </div>
 </div>

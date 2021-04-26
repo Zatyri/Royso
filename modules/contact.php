@@ -34,9 +34,9 @@ if (filter_has_var(INPUT_POST, 'contactSubmitButton')) {
     } else if (!filter_var($mail, FILTER_VALIDATE_EMAIL)) {
       $errors['mail'] = 'Ge en korrekt e-mail adress';
     } else {
-      $mail = filter_var($phone, FILTER_SANITIZE_EMAIL);
+      $mail = filter_var($mail, FILTER_SANITIZE_EMAIL);
       $email['from'] = $mail;
-      $email['headers'] = 'From: ' . $mail . '\r\n' . 'Reply-To: ' . $mail;
+      $email['headers'] = 'From: ' . $mail . "\r\n" . 'Reply-To: ' . $mail . "\r\n";
     }
   }
   if (filter_has_var(INPUT_POST, 'subject')) {
@@ -55,8 +55,10 @@ if (filter_has_var(INPUT_POST, 'contactSubmitButton')) {
     } else if (preg_match('/http|www/i', $message)) {
       $errors['message'] = 'Vi accepterar inga länkar i meddelander';
     } else {
-      $message = filter_var($message, FILTER_SANITIZE_STRING);
-      $email['message'] = 'Meddelande från ' . $email['name'] . '\r\n' + wordwrap($message, 70, '\r\n');
+      $message = filter_var($message, FILTER_SANITIZE_STRING);      
+      $email['message'] = 'Meddelande från ' . $email['name'] . "\r\n" . $message;
+      $email['message'] = wordwrap($email['message'],70);
+      
     }
   }
 
@@ -70,10 +72,10 @@ if (filter_has_var(INPUT_POST, 'contactSubmitButton')) {
   if ($ready) {
     $success = sendMail($email);
     if ($success) {
-      echo ('mail sent');
+      // echo ('mail sent');
       $_POST = array();
     } else {
-      echo ('mail not sent');
+      // echo ('mail not sent');
     }
   }
 }

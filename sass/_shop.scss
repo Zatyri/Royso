@@ -1,0 +1,63 @@
+/* shop */
+.mainShop {
+  background-color: var(--accent-color);
+}
+
+.inputForm {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5em !important;
+}
+
+.inputForm form {
+  width: 50%;
+  background-color: var(--accent-color);
+  padding: 0.5em 5em 2em;
+  border-radius: 30px;
+  box-shadow: 1px 1px 10px black;
+}
+
+.inputForm .inputContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5em;
+}
+
+.inputContainer {
+  width: 100%;
+  font-weight: bold;
+}
+
+.inputContainer label {
+  width: 100%;
+  margin-bottom: 0.2em;
+  padding: 0.5em 0;
+}
+
+.inputContainer input {
+  width: 100%;
+  padding: 5px 2px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+}
+
+.inputContainer input:focus {
+  outline: unset !important;
+}
+
+.mainShop img {
+  margin: 1em;
+}
+
+.mainShop .bookPicture {  
+  display: flex;
+  justify-content: center;
+}
+
+.shopImage {
+  box-shadow: 0 0 5px black;
+  padding: 0 !important;
+}
