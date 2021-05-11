@@ -1,6 +1,10 @@
 <footer>
   <div class='container'>
     <div>
+      <div>
+        <h3>I sammarbete med</h3>
+        <img src='/media/logo/Konstsamfundet_svart.png' alt='Konstamfundet' />
+      </div>
     </div>
     <div class='navigation'>
       <a href='index.php'>HEM</a>
