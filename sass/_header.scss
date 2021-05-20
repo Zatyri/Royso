@@ -29,6 +29,10 @@ header .container div {
   top:70px;
   left:40px;
   width: 45%;
+
+  p {
+    margin-top: 1em;
+  }
 }
 
 .headerTextContainer::before {

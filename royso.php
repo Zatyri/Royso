@@ -20,7 +20,11 @@ $googleKey = $_ENV['googleKey'];
           <h2>Karta över Röysö</h2>
         </div>
         <div id="googleMap"></div>
+        <cite>Platser och namn av Nils-Erik Bäckblom</cite>
       </article>
+      <?php
+      include './modules/text.php'; 
+      ?>
     </div>
   </main>
 </div>

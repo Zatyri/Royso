@@ -1,7 +1,7 @@
 <footer>
   <div class='container'>
     <div>
-      <div>
+      <div id='collaboration'>
         <h3>I sammarbete med</h3>
         <img src='/media/logo/Konstsamfundet_svart.png' alt='Konstamfundet' />
       </div>

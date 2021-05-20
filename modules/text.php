@@ -1,130 +1,154 @@
-<div>
-    <div class='header'>
-      <h2>Ortsborna</h2>
-    </div>
-    <p>
-      Jordarna i Sibbo skärgård, skiftades 1841 mellan bondgårdarna på fastlandet. I princip blev gårdarna då också ägare till markerna och fiskevattnen i skärgården. Skärgårdsborna var obesuttna torpare som betalade arrenden till bönderna uppe i byarna med främst ved och fisk.
-      <img src='' alt='Soldatgosse' />
-    </p>
-    <p>
-      Många skärgårdspojkar kallades in till militärtjänstgöring i Ryssland. Alla som svurit tsaren trohetseden var inte så förtjusta över utvecklingen i Finland efter revolutionen.
-    </p>
-    <img src='' alt='Gubbe sitter på en sten' />
-    <p><cite>"Int ett skott har smälli för Finlands Frihet"</cite></p>
-    <p>Ord värda sin vikt i guld. Om någon skulle ha dristat sig att säga något gott om tyskens framfart i Europa så skulle han nog ha fått höra… </p>
-    <p><cite>"Ingin har flyttat på ryssns råstenar ännu”</cite></p>
-    <div>
-      <img src='' alt='Roddbåt med häst i' />
-      <img src='' alt='Hästen drar plog' />
-    </div>
-    <p>
-      På en fiske- och jordbrukslägenhet i skärgården fanns det ett oändligt antal uppgifter som ständigt krävde tillsyn och uppmärksamhet under årets alla fyra årstider. Alla måste hjälpa till. Ifall den egna familjen inte räckte till kunde man anställa en dräng eller adoptera förstärkning. Ifall man samtidigt adopterade två, exempelvis två bröder så hade endast den ena rätt att ärva och anta fosterföräldrars namn eftersom en fiskelägenhet inte ansågs kunna försörja mera än en familj.
-    </p>
-    <img src='' alt='Fyra män sitter bland skjutna fåglar' />
-    <p>
-      Självfallet hade man också nöjen. Förutom bibelläsning var Marthornas handarbetskvällar uppskattade händelser. Alla ville emellertid inte höra till Pingstvännerna eller Missionskyrkan.
-    </p>
-    <blockquote cite='Borgåblader 1925'>
-      Borgåbladet 1925.<br>
-      Två av de på den lilla holmen Reusö vid Simsalö boende familjerna ha hos pastorsämbetet i Sibbo anmält om sitt utträde ur kyrkan. Det har visat sig att familjerna i fråga hylla sig till russellianismen.
-    </blockquote>
-    <p>
-      Så småningom utvecklades samfärdseln och näringarna i skärgården. Ju närmare Helsingfors med Husö gård och Nordsjö hamn kom i väster och raffinaderiet i Sköldvik i Öster kom varandra, desto starkare växte sig den gemensamma skärgårdskultur som vi alla delade tillsammans. Läs mera om allt vad det innebar genom att klicka på sista fliken.
-    </p>
+<article>
+  <div class='header'>
+    <h2>Ortsborna</h2>
   </div>
-  <div>
-    <div class='header'>
-      <h2>Sommargästerna</h2>
-    </div>
-    <p>
-      Vid sekelskiftet härskade det en befogad rädsla för olika farsoter. Allt man kunde göra var att värna sig om en god hälsa. Till det naturromantiska idealet som växte fram hörde en sund själ i en sund kropp (mens sana in corpore sano). Villastäder, orangerier och prunkande trädgårdar i bebyggelsen kring Helsingfors blev allt vanligare. Barnen skulle fostras till fria individer och härdas genom sol, bad och fysiska sporter som exempelvis tennis och segling, mammorna skulle ansvara för sällskapslivet, papporna för försörjningen av familjen och tjänstefolket för hushållet.
-      När torparlagen trädde i kraft så kom försäljning av parceller i skärgården som såldes för att torparna skulle kunna lösa in sina arrenden som på beställning.
-    </p>
-    <img src='' alt='Minister sitter i en båt' />
-    <p>Ministern anländer redo för semester i skärgården</p>
-    <img src='' alt='Kvinna vid en segelbåts rodder' />
-    <p>tätt följd av den första emanciperade kvinnan</p>
-    <img src='../media/pictures/segelbat.jpg' alt='Segelbåt på havet'>
-    <p>Allt medan Sibboskutorna som fraktade sand, ved, tegel och timmer återvände lastade latrin som användes som gödsel på gårdarna på returen. </p>
-    <div>
-      <img src='' alt='Barn leker på en strand' />
-      <img src='' alt='En pojke åker vattenbräde' />
-      <img src='' alt='Barnen ute och tältar' />
-    </div>
-    <p>Sedan var det barnens tur. När skolorna var slut den sista maj forslades vi ut i skärgården. Där fick vi simma, segla, paddla, spela ”purkista” och leka bäst vi ville. Allt förutsatt att vi hjälpte till, sa vart vi gick, kom hem och äta när maten var färdig och lade oss i våra egna sängar på kvällen. </p>
-    <div>
-      <img src='' alt='Man kör med motorbåt' />
-      <img src='' alt='Ungdomen ute på seglats' />
-    </div>
-    <p>Förutsatt att ingen hade kört eller seglat iväg för att tälta förstås</p>
-    <div>
-      <img src='' alt='Båten lastas med barn' />
-      <img src='' alt='Båten lastas med korgar' />
-    </div>
-    <p>Den sista augusti var det sedan dags att packa ihop flyttningslasset och åka till stan och sätta sig på skolbänken i väntan på jul- och sportlov. Då bar det ut över isarna igen.</p>
-
-    <div>
-      <img src='' alt='Familj ute och skidar' />
-      <img src='' alt='Hästen drar en släde på isen' />
-    </div>
-    <p>Läs mer om Norrkullaloppet, butiksbåtarna och oförglömliga utflykter till Söderskär. Köp boken genom att klicka på sista fliken. </p>
-  </div>
-
-  <div>
-      <div class='header'>
-        <h2>Förklaring</h2>
-      </div>
-      <ol>
-        <li>Flånvarpet</li>
-        <li>Hället/Hälle</li>
-        <li>Hällstens/Willförs udde</li>
-        <li>Brändholmskobben</li>
-        <li>Brändholmssundet/Brännholmssundet</li>
-        <li>Edisholmar</li>
-        <li>Tvillingsören/Tvillingsörn</li>
-        <li>Snällensviken</li>
-        <li>Lusören</li>
-        <li>Gräsören/Gräsörn</li>
-        <li>Gräsörshalsen</li>
-        <li>Gräsörsratena</li>
-        <li>Gräsörssundet</li>
-        <li>Kapellsten</li>
-        <li>Bänkholmen</li>
-        <li>Bänkholmsrate</li>
-        <li>Kattholmen/Kattholm</li>
-        <li>Gloholmen</li>
-        <li>Branthällarna/Branthällen</li>
-        <li>Sandviken/Skräddarnsviken</li>
-        <li>Gloet</li>
-        <li>Mynnet</li>
-        <li>Skrevan/ Träskmans Skrivun</li>
-        <li>Röysöbranten</li>
-        <li>Sandviken/Södervik</li>
-        <li>Ratena/Måsholmarna (Fyrkanten)</li>
-        <li>Långa ratet</li>
-        <li>Mellanratet</li>
-        <li>Första ratet</li>
-        <li>Andra ratet</li>
-        <li>Sillklacken</li>
-        <li>Fyrkanten</li>
-        <li>Fyrkantiggrundet</li>
-        <li>Höjterviken/ Höterviken</li>
-        <li>Höjtersundet/Hötersundet</li>
-        <li>Stora Munkholmen</li>
-        <li>Byxlåsudden</li>
-        <li>Lilla Munkholmen</li>
-        <li>Skomakarsundet</li>
-        <li>Långstrand</li>
-        <li>Koören/Köörn</li>
-        <li>Lilla Koören/Lilla Koörn/Ånkan</li>
-        <li>Högberget/Högis</li>
-        <li>Sandholmen</li>
-        <li>Sandholmssundet</li>
-        <li>Sandholmssundet</li>
-        <li>Morfarsudden/Heikkisudden</li>
-        <li>Klesasbackan</li>
-        <li>Snokarberget</li>
-
-      </ol>
+  <p>
+    Jordarna i Sibbo skärgård, skiftades 1841 mellan bondgårdarna på fastlandet.
+    I princip blev gårdarna då också ägare till markerna och fiskevattnen i skärgården.
+    Skärgårdsborna var obesuttna torpare som betalade arrenden till bönderna uppe i byarna
+    med främst ved och fisk.
+  </p>
+  <p>
+    Under autonomitiden (1809-1917) kallades många av skärgårdspojkarna in till
+    militärtjänstgöring i Ryssland. Alla som svurit tsaren trohetseden var inte
+    så förtjusta över utvecklingen i Finland efter revolutionen.
+  </p>
+  <div class="flex  flexRow flexWrap">
+    <div class="flexCol">
+      <img src='../media/pictures/ortsbor1_small.jpg' alt='Gubbe sitter på en sten' />
+      <p>Wille <cite>"Int ett skott har smälli för Finlands Frihet"</cite></p>
     </div>
   </div>
+  <p>
+    I övrigt var livet oftast ett hårt slit. Alla måste hjälpa till.
+    Ifall de egna krafterna inte räckte till så kunde man anställa en dräng
+    eller adoptera ett fosterbarn. Ifall man adopterade flera så hade endast
+    en rätt att ärva och anta fosterföräldrars namn eftersom en fiskelägenhet
+    inte ansågs kunna försörja mera än en familj.
+  </p>
+  <div class="flex  flexRow flexWrap">
+    <img src='../media/pictures/hast_plog_medium.jpg' alt='Hästen drar plog' />
+    <img src='../media/pictures/ortsbor3_small.jpg' alt='Fyra män sitter bland skjutna fåglar' />
+  </div>
+  <p>
+    Det hårda livet och de starka kraven fostrade till frälsning och sträng moral.
+    Förutom bibelläsning var Marthornas handarbetskvällar uppskattade händelser.
+    Alla ville emellertid inte höra till Pingstvännerna eller Missionskyrkan.
+    I glesbygden var det dessutom ofta också rätt svårt att finna en lämplig livskamrat.
+  </p>
+  <div class="flex  flexRow flexWrap">
+    <div class="flexCol">
+      <img src='../media/pictures/man_roddbat_medium.jpg' alt='Man sitter i en roddbåt' />
+      <p>Frans <cite>"Åldern betyder ingiting, bara kärleken är ömsesidig"</cite></p>
+    </div>
+  </div>
+  <p>
+    När torparlagen trädde i kraft så sålde torparna parceller för att kunna lösa in sina arrenden.
+    De som hade stora marker att sälja blev förmögna medan de som saknade blev utan.
+  </p>
+  <div class="flex  flexRow flexWrap">
+    <div class="flexCol">
+      <img src='../media/pictures/gumbotorpet_small.jpg' alt='Bild av Gumbotorpet' />
+      <cite>Gumbostrand fick sitt namn av Gumbotorpet</cite>
+    </div>
+  </div>
+  <p>
+    Så småningom växte en helt ny infrastruktur fram med producenter, klienter och näringar
+    som alltmera fokuserade på rekreation och sommargästernas behov.
+    Detta tills allt flöt samman till en enda unik skärgårdskultur som vi en gång delade tillsammans.
+    Läs mera om hur det hela gick till genom att klicka <a href="../shop.php">här</a> och beställ boken</p>
+</article>
+<article>
+  <div class='header'>
+    <h2>Sommargästerna</h2>
+  </div>
+  <p>
+    Vid sekelskiftet härskade det en befogad rädsla för olika farsoter.
+    Allt man kunde göra var att värna sig om en god hälsa.
+    Till det naturromantiska idealet som växte fram i tiden hörde en sund själ
+    i en sund kropp (mens sana in corpore sano). Villastäder, orangerier och prunkande
+    trädgårdar i bebyggelsen kring Helsingfors blev allt vanligare.
+    Barnen skulle fostras till fria individer och härdas genom sol,
+    bad och fysiska sporter som exempelvis tennis och segling,
+    mammorna skulle ansvara för sällskapslivet, papporna för försörjningen av familjen
+    och tjänstefolket för hushållet.
+  </p>
+  <div class=" flexRow flexWrap">
+    <div class="flexCol">
+      <img src='../media/pictures/kvinna_segelbat_medium.jpg' alt='Kvinna vid en segelbåts rodder' />
+      <p>Den första emanciperade kvinnan i Helsingfors landade på Röysö (i början av 1930-talet).</p>
+    </div>
+    <div class="flexCol">
+      <img src='../media/pictures/minister_bat_medium.jpg' alt='Minister sitter i en båt' />
+      <p>Tätt följd av den elegantaste ministern. </p>
+    </div>
+  </div>
+  <div class=" flexRow flexWrap">
+    <img src='../media/pictures/segelbat_small.jpg' alt='Segelbåt på havet'>
+  </div>
+
+  <p>
+    Allt medan Sibboskutorna lastade latrin i Helsingfors som användes som
+    gödsel på gårdarna på returen.
+  </p>
+  <p>
+    Många av de första parcellägarna var högt utbildade personer som hade
+    inflytelserika poster inom samhället
+  </p>
+  <div class=" flexRow flexWrap">
+    <img src='../media/pictures/man_kvinna_medium.jpg' alt='En man och en kvinna' />
+    <img src='../media/pictures/man_med_far_medium.jpg' alt='En man med ett får på ängen' />
+
+  </div>
+  <p>
+    En del inom medicinen, andra inom sjöfarten. Somliga var så driftiga att
+    de kombinerade nytta med nöje och startade egna affärsverksamheter
+  </p>
+
+  <div class=" flexRow flexWrap">
+    <img src='../media/pictures/manniskor_fabrik_medium.jpg' alt='En rad människor utanför en fabrik' />
+    <img src='../media/pictures/norkulla_kaj_medium.jpg' alt='Bild av norkulla kaj' />
+    <img src='../media/pictures/norkulla_farja_medium.jpg' alt='Norrkulla färja' />
+  </div>
+  <p>
+    Allt från hönserier som exporterade ägg till Tyskland, korkförslutningar till läskedrycksflaskor,
+    turisthotell och ångbåtslinjer. Till sist beslöt man sig för att dra en elektrisk järnväg
+    från Helsingfors till Borgå. Men projektet misslyckades.
+  </p>
+  <p>
+    När föräldrarna så småningom började lugna ner sig var det barnens tur.
+    När skolorna var slut den sista maj så föstes vi ut i skärgården.
+  </p>
+  <div class=" flexRow flexWrap">
+    <img src='../media/pictures/barn_leker_strand_medium.jpg' alt='Barn leker på en strand' />
+    <img src='../media/pictures/vattenskida_medium.jpg' alt='En pojke åker vattenbräde' />
+    <img src='../media/pictures/barn_taltar_medium.jpg' alt='Barnen ute och tältar' />
+  </div>
+  <p>
+    Där fick vi simma, segla, paddla, spela ”purkista” och leka bäst vi ville.
+    Allt förutsatt att vi hjälpte till, sa vart vi gick, kom hem och äta när
+    maten var färdig och lade oss i våra egna sängar på kvällen.
+  </p>
+  <div class=" flexRow flexWrap">
+    <img src='../media/pictures/man_motorbat_medium.jpg' alt='Man kör med motorbåt' />
+    <img src='../media/pictures/ungdom_seglar_medium.jpg' alt='Ungdomen ute på seglats' />
+    <img src='../media/pictures/pojkar_soderskar_medium.jpg' alt='Två pojkar vid Söderskär' />
+  </div>
+  <p>Förutsatt att ingen hade kört eller seglat iväg för att tälta förstås</p>
+  <div class=" flexRow flexWrap">
+    <img src='../media/pictures/bat_lastas_barn_medium.jpg' alt='Båten lastas med barn' />
+    <img src='../media/pictures/baten_lastas_medium.jpg' alt='Båten lastas med korgar' />
+  </div>
+  <p>
+    Den sista augusti var det sedan dags att sätta sig på skolbänken för att vänta
+    på sportlovet. Då bar det av ut över isarna igen.
+  </p>
+  <div class=" flexRow flexWrap">
+    <img src='../media/pictures/familj_isen_medium.jpg' alt='Familj ute och skidar' />
+    <img src='../media/pictures/hast_slade_medium.jpg' alt='Hästen drar en släde på isen' />
+  </div>
+  <p>
+    Läs mer om Norrkullaloppet, butiksbåtarna och oförglömliga utflykter till Söderskär.
+    Köp boken genom att klicka <a href="../shop.php">här</a>.
+  </p>
+</article>
