@@ -56,7 +56,7 @@
     Så småningom växte en helt ny infrastruktur fram med producenter, klienter och näringar
     som alltmera fokuserade på rekreation och sommargästernas behov.
     Detta tills allt flöt samman till en enda unik skärgårdskultur som vi en gång delade tillsammans.
-    Läs mera om hur det hela gick till genom att klicka <a href="../shop.php">här</a> och beställ boken</p>
+    Läs mera om hur det hela gick till genom att <a href="../butik" rel="Link till butiken">klicka här</a> och beställ boken</p>
 </article>
 <article>
   <div class='header'>
@@ -149,6 +149,6 @@
   </div>
   <p>
     Läs mer om Norrkullaloppet, butiksbåtarna och oförglömliga utflykter till Söderskär.
-    Köp boken genom att klicka <a href="../shop.php">här</a>.
+    Köp boken genom att <a href="../butik" rel="Link till butiken">klicka här</a>.
   </p>
 </article>

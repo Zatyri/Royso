@@ -4,3 +4,4 @@ environment.php
 media/pictures/Links pärm.zip
 *.zip
 pictures
+.htaccess

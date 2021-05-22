@@ -1,25 +1,36 @@
 <footer>
   <div class='container'>
-    <div>
+    <div class="flexEven">
       <div id='collaboration'>
         <h3>I sammarbete med</h3>
         <img src='/media/logo/Konstsamfundet_svart.png' alt='Konstamfundet' />
       </div>
     </div>
-    <div class='navigation'>
-      <a href='index.php'>HEM</a>
-      <a href='book.php'>BOKEN</a>
-      <a href='royso.php'>OM RÖYSÖ</a>
-      <a href='shop.php'>KÖP BOKEN</a>
+    <div class='navigation flexEven'>
+      <a href='/'>HEM</a>
+      <a href='boken'>BOKEN</a>
+      <a href='royso'>OM RÖYSÖ</a>
+      <a href='butik'>KÖP BOKEN</a>
     </div>
-    <div>
-      <button id='contactButton' class="secondaryButton contactButton">Kontakta oss</button>   
+    <div class="contact flexEven">
+      <button id='contactButton' class="secondaryButton contactButton">Kontakta oss</button>
     </div>
-    <?php 
-      include './modules/contact.php';
+    <?php
+    include './modules/contact.php';
     ?>
+  </div>
+  <div class="flexCol">
+    <p>
+      Sidan av Oskar Gustafsson
+    </p>
+    <p>© <?php
+          echo date("Y");
+          ?>
+      Ulf Gustafsson
+    </p>
   </div>
 </footer>
 </body>
 <script type='text/javascript' src='./scripts/main.js'></script>
+
 </html>

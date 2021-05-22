@@ -68,6 +68,11 @@ p {
   align-items: center;
 }
 
+.flexEven {
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
 .background {
   width: 100%;
   background-color: var(--accent-color);
@@ -83,6 +88,49 @@ p {
   margin-top: 0.2em;
   border-radius: 5px;
   border: 1px solid rgb(153, 102, 51);
+}
+
+.failMsg {
+  z-index: 99;
+  position: absolute;
+  top: 170px;
+  left: 50%;
+  opacity: 1;
+  transition: 1s;
+  span {
+    position: relative;
+    left: -50%;
+    border: 1px solid rgb(124, 28, 28);
+    background-color: rgb(225, 0, 0);
+    padding: 1em;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+  }
+}
+
+.successMsgMsg {
+  z-index: 99;
+  position: absolute;
+  top: 170px;
+  left: 50%;
+  opacity: 1;
+  transition: 1s;
+  span {
+    position: relative;
+    left: -50%;
+    color: #270;
+    background-color: #DFF2BF;
+    padding: 1em;
+    border-radius: 10px;    
+    font-weight: bold;
+  }
+}
+
+.fadeMsg {
+  visibility: hidden;
+  opacity: 0;
+  
 }
 
 /* Buttons */

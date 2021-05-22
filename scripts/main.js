@@ -53,3 +53,17 @@ handleNavbar = () => {
     icon.textContent = 'menu'
   }
 };
+
+// handle message show time
+const handleMessages = () => {  
+  
+  const msg = document.getElementById('timedMsg');
+  if(msg){
+    setTimeout(() => msg.classList.add('fadeMsg'), 5000);
+  }
+  
+  
+}
+handleMessages();
+
+

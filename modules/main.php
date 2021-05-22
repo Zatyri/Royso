@@ -23,7 +23,12 @@
       </div>
       <p>
         <img id='authorPicture' src='./media/pictures/forfattaren_small.png' alt="bild på författaren" />
-        Ända sedan jag föddes har jag firat nästan alla mina somrar på Röysö. Till hjälp med att skriva boken har jag haft alla mina vänner bland sommargäster och ortsbor som har bidragit med fotografier, berättelser och egna texter. Som sakkunnig har fungerat lantmäteriingenjör Nils-Erik Bäckblom som dessutom har bidragit med en massa material. Som ombrytare har fungerat Marika Andersson (MA-Creations) och som poet Gunilla Malm. Tack till er alla!
+        Ända sedan jag föddes har jag firat nästan alla mina somrar på Röysö. 
+        Till hjälp med att skriva boken har jag haft alla mina vänner bland 
+        sommargäster och ortsbor som har bidragit med fotografier, 
+        berättelser och egna texter. Som sakkunnig har fungerat lantmäteriingenjör 
+        Nils-Erik Bäckblom som dessutom har bidragit med en massa material. 
+        Som ombrytare har fungerat Marika Andersson (MA-Creations) och som poet Gunilla Malm. 
       </p>
       <p>
         Helsingfors vintern 2021

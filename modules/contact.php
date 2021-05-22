@@ -70,12 +70,13 @@ if (filter_has_var(INPUT_POST, 'contactSubmitButton')) {
     }
   }
   if ($ready) {
-    $success = sendMail($email);
+    $success = sendMail($email);    
+
     if ($success) {
-      // echo ('mail sent');
+      echo '<div id="timedMsg" class="successMsg">Meddelande skickats</div>';
       $_POST = array();
     } else {
-      // echo ('mail not sent');
+      echo '<div id="timedMsg" class="failMsg"><span>Kunde inte skicka meddelanet. Var god pröva på nytt</span></div>';
     }
   }
 }
