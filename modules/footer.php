@@ -26,7 +26,7 @@
     <p>© <?php
           echo date("Y");
           ?>
-      Ulf Gustafsson
+      Projektforum Oy Ab
     </p>
   </div>
 </footer>

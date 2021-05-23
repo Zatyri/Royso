@@ -8,7 +8,7 @@ const setFocusToButtons = () => {
         .getElementById('homeButton')
         .classList.add('primaryButtonFocus');
       break;
-    case urlPath.includes('book'):
+    case urlPath.includes('boken'):
       document.getElementById('bookButton').classList.add('primaryButtonFocus');
       break;
     case urlPath.includes('royso'):
@@ -16,7 +16,7 @@ const setFocusToButtons = () => {
         .getElementById('roysoButton')
         .classList.add('primaryButtonFocus');
       break;
-    case urlPath.includes('shop'):
+    case urlPath.includes('butik'):
       document.getElementById('shopButton').classList.add('primaryButtonFocus');
       break;
     default:

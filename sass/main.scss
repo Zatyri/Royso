@@ -97,7 +97,7 @@ p {
   left: 50%;
   opacity: 1;
   transition: 1s;
-  span {
+  p {
     position: relative;
     left: -50%;
     border: 1px solid rgb(124, 28, 28);
@@ -109,14 +109,14 @@ p {
   }
 }
 
-.successMsgMsg {
+.successMsg {
   z-index: 99;
   position: absolute;
   top: 170px;
   left: 50%;
   opacity: 1;
   transition: 1s;
-  span {
+  > p {
     position: relative;
     left: -50%;
     color: #270;

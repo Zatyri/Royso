@@ -8,7 +8,7 @@ $errors = [
 ];
 
 $email = [
-  'to' => 'oskar@royso.fi',
+  'to' => 'ulf@royso.fi',
   'from' => '',
   'subject' => '',
   'name' => '',
@@ -73,10 +73,10 @@ if (filter_has_var(INPUT_POST, 'contactSubmitButton')) {
     $success = sendMail($email);    
 
     if ($success) {
-      echo '<div id="timedMsg" class="successMsg">Meddelande skickats</div>';
+      echo '<div id="timedMsg" class="successMsg"><p>Meddelande skickats</p></div>';
       $_POST = array();
     } else {
-      echo '<div id="timedMsg" class="failMsg"><span>Kunde inte skicka meddelanet. Var god pröva på nytt</span></div>';
+      echo '<div id="timedMsg" class="failMsg"><p>Kunde inte skicka meddelanet. <br> Var god pröva på nytt</p></div>';
     }
   }
 }

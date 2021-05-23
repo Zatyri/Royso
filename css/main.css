@@ -203,6 +203,8 @@ header .container div {
 
 .mainShop img {
   margin: 1em;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
 }
 
 .mainShop .bookPicture {
@@ -222,7 +224,7 @@ header .container div {
 
 /* Footer */
 footer {
-  padding: 1em 0 0 0;
+  padding: 1em 0;
   background-color: var(--main-color);
 }
 
@@ -329,6 +331,8 @@ footer .container .navigation a:focus {
 .mainRoyso img {
   max-height: 300px;
   margin: 0.5em;
+  -o-object-fit: scale-down;
+     object-fit: scale-down;
 }
 
 .mainRoyso p {
@@ -457,7 +461,7 @@ p {
   transition: 1s;
 }
 
-.failMsg span {
+.failMsg p {
   position: relative;
   left: -50%;
   border: 1px solid #7c1c1c;
@@ -468,7 +472,7 @@ p {
   font-weight: bold;
 }
 
-.successMsgMsg {
+.successMsg {
   z-index: 99;
   position: absolute;
   top: 170px;
@@ -478,7 +482,7 @@ p {
   transition: 1s;
 }
 
-.successMsgMsg span {
+.successMsg > p {
   position: relative;
   left: -50%;
   color: #270;
