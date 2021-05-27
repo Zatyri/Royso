@@ -6,14 +6,11 @@
       </div>
       <p>
         Röysöboken är en berättelse om arrenden, tomtförsäljning och företagsamhet. Om sommar, slit och segel i en skärgårdskultur som vi en gång delade tillsammans.
-      </p>
-      <p>
+     
         Ortsbornas och sommargästernas egna texter.
-      </p>
-      <p>
+    
         Kartor och ortnamn, oförglömliga ord och uttryck.
-      </p>
-      <p>
+    
         275 fotografier ur privata samlingar.
       </p>
     </article>
@@ -30,6 +27,7 @@
         Nils-Erik Bäckblom som dessutom har bidragit med en massa material. 
         Som ombrytare har fungerat Marika Andersson (MA-Creations) och som poet Gunilla Malm. 
       </p>
+      <br>
       <p>
         Helsingfors vintern 2021
       </p>

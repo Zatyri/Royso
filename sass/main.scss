@@ -2,6 +2,7 @@
 @import '_shop';
 @import '_footer';
 @import '_royso';
+@import '_privacy';
 
 :root {
   --main-color: rgb(248, 248, 248);
@@ -183,6 +184,7 @@ p {
   padding: 0.2em;
   border-radius: 5px;
   transition: 0.2s all;
+  cursor: pointer;
 }
 
 .secondaryButton:hover {  
@@ -383,9 +385,6 @@ main .container .header h2 {
     flex-direction: column;
   }
 
-  main .container article p{
-    text-align: center;
-  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -427,6 +426,10 @@ main .container .header h2 {
   main .container {
     grid-template-columns: 1fr;
     width: 95%;
+
+    p {
+      padding:0;
+    }
   }
 
   main .container div {

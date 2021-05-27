@@ -1,0 +1,19 @@
+.privacy {  
+  background-color: var(--accent-color);
+  padding: 3em;
+
+  div {
+    padding: 1em;
+    background-color: var(--main-color);
+    h2 {
+      margin-bottom: 0.5em;
+    }
+  }
+
+  
+}
+
+.privacyButton {
+  color: gray;
+  text-decoration: underline;
+}

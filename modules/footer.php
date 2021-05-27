@@ -20,14 +20,19 @@
     ?>
   </div>
   <div class="flexCol">
-    <p>
-      Sidan av Oskar Gustafsson
-    </p>
-    <p>© <?php
+
+    <div>
+      <span>
+        © <?php
           echo date("Y");
           ?>
-      Projektforum Oy Ab
-    </p>
+        Projektforum Oy Ab
+      </span>
+      <a class="privacyButton" href="./privacyStatement">Dataskydd</a>
+    </div>
+    <div>
+      Sidan av Oskar Gustafsson
+    </div>
   </div>
 </footer>
 </body>

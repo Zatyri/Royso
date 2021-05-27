@@ -35,6 +35,7 @@ header .container div {
 
 .headerTextContainer p {
   margin-top: 1em;
+  font-weight: 550;
 }
 
 .headerTextContainer::before {
@@ -137,6 +138,9 @@ header .container div {
   .headerText h5 {
     margin: 0.2em 0;
     font-size: 1em;
+  }
+  .headerText p {
+    padding: 0 0 1em;
   }
 }
 
@@ -328,6 +332,14 @@ footer .container .navigation a:focus {
   height: 400px;
 }
 
+.mainRoyso #googleMap div {
+  margin: 0;
+}
+
+.mainRoyso #googleMap .cluster img {
+  margin: 0;
+}
+
 .mainRoyso img {
   max-height: 300px;
   margin: 0.5em;
@@ -343,6 +355,25 @@ footer .container .navigation a:focus {
   margin: 0;
   font-weight: bold;
   cursor: pointer;
+}
+
+.privacy {
+  background-color: var(--accent-color);
+  padding: 3em;
+}
+
+.privacy div {
+  padding: 1em;
+  background-color: var(--main-color);
+}
+
+.privacy div h2 {
+  margin-bottom: 0.5em;
+}
+
+.privacyButton {
+  color: gray;
+  text-decoration: underline;
 }
 
 :root {
@@ -551,6 +582,7 @@ p {
   border-radius: 5px;
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
+  cursor: pointer;
 }
 
 .secondaryButton:hover {
@@ -792,9 +824,6 @@ main .container .header h2 {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  main .container article p {
-    text-align: center;
-  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -839,6 +868,9 @@ main .container .header h2 {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     width: 95%;
+  }
+  main .container p {
+    padding: 0;
   }
   main .container div {
     margin: 0 0.5em;
