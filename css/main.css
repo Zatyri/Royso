@@ -21,11 +21,6 @@ header .container div {
   text-align: center;
 }
 
-#headerImage {
-  margin: 1em 0 0;
-  border: 4px solid black;
-}
-
 .headerTextContainer {
   position: relative;
   top: 70px;
@@ -149,7 +144,13 @@ header .container div {
   background-color: var(--accent-color);
 }
 
-.inputForm {
+.mainShop h2 {
+  font-size: 3em;
+  margin-bottom: 0.7em;
+  text-align: center;
+}
+
+.mainShop .inputForm {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -159,16 +160,19 @@ header .container div {
   margin-top: 0.5em !important;
 }
 
-.inputForm form {
+.mainShop .inputForm h3 {
+  font-size: 2em;
+}
+
+.mainShop .inputForm form {
   width: 50%;
   background-color: var(--accent-color);
   padding: 0.5em 5em 2em;
-  border-radius: 30px;
   -webkit-box-shadow: 1px 1px 10px black;
           box-shadow: 1px 1px 10px black;
 }
 
-.inputForm .inputContainer {
+.mainShop .inputForm .inputContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -177,20 +181,53 @@ header .container div {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-top: 0.5em;
-}
-
-.inputContainer {
   width: 100%;
   font-weight: bold;
 }
 
-.inputContainer label {
-  width: 100%;
-  margin-bottom: 0.2em;
-  padding: 0.5em 0;
+.mainShop .inputForm .inputContainer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.inputContainer input {
+.mainShop .inputForm .inputContainer div .checkbox {
+  width: 50px;
+}
+
+.mainShop .inputForm .inputContainer div .bookAmount {
+  max-width: 75px;
+}
+
+.mainShop .inputForm .inputContainer div label {
+  width: unset;
+  margin-right: 1em;
+}
+
+.mainShop .inputForm .inputContainer label {
+  width: 100%;
+  margin-bottom: 0.2em;
+  padding: 0.2em 0;
+}
+
+.mainShop .inputForm .inputContainer label span {
+  font-size: 0.8em;
+  font-weight: normal !important;
+}
+
+.mainShop .inputForm .inputContainer label a {
+  margin: 0 !important;
+  text-decoration: underline;
+  color: gray;
+}
+
+.mainShop .inputForm .inputContainer input {
   width: 100%;
   padding: 5px 2px;
   -webkit-box-sizing: border-box;
@@ -201,8 +238,12 @@ header .container div {
   font-size: 16px;
 }
 
-.inputContainer input:focus {
+.mainShop .inputForm .inputContainer input:focus {
   outline: unset !important;
+}
+
+.mainShop .inputForm .notification {
+  margin: 1em 0;
 }
 
 .mainShop img {
@@ -220,10 +261,32 @@ header .container div {
           justify-content: center;
 }
 
-.shopImage {
+.shopImage img {
   -webkit-box-shadow: 0 0 5px black;
           box-shadow: 0 0 5px black;
   padding: 0 !important;
+}
+
+@media (max-width: 720px) {
+  form {
+    width: 90% !important;
+    padding: 0.5em 2em 2em !important;
+  }
+}
+
+@media (max-width: 400px) {
+  h3 {
+    font-size: 1.2em !important;
+  }
+  .inputContainer div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  form {
+    padding: 0.5em 1em 2em !important;
+  }
 }
 
 /* Footer */
@@ -374,6 +437,21 @@ footer .container .navigation a:focus {
 .privacyButton {
   color: gray;
   text-decoration: underline;
+}
+
+.tack {
+  background-color: var(--accent-color);
+  padding: 2em;
+}
+
+.tack div {
+  margin-bottom: 2em;
+}
+
+@media (max-width: 400px) {
+  .tack h1 {
+    font-size: 2em;
+  }
 }
 
 :root {

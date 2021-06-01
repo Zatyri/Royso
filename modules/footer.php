@@ -28,7 +28,7 @@
           ?>
         Projektforum Oy Ab
       </span>
-      <a class="privacyButton" href="./privacyStatement">Dataskydd</a>
+      <a class="privacyButton" href="./privacyStatement" rel="nofollow">Dataskydd</a>
     </div>
     <div>
       Sidan av Oskar Gustafsson

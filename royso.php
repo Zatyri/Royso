@@ -21,6 +21,7 @@ $googleKey = $_ENV['googleKey'];
         </div>
         <div id="googleMap"></div>
         <cite>Platser och namn av Nils-Erik Bäckblom</cite>
+        <div>Klicka på de röda och blå bollarna för att zooma in på kartan</div>
       </article>
       <?php
       include './modules/text.php'; 

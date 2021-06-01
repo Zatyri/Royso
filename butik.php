@@ -5,11 +5,14 @@ include './modules/head.php';
   <main class='mainShop'>
     <div class='container'>
       <article>
-        <p>På kommande</p>
+        <h2>Köp boken</h2>
+        <?php
+        include './modules/shopForm.php'
+        ?>
       </article>
-      <article class='bookPicture'>
-        <img class='shopImage' src="./media/pictures/bokenbild.png" alt='bild av Röysö'></img>
-      </article>
+      <div class='bookPicture'>
+          <img class='shopImage' src="./media/pictures/royso_bok_foto.png" alt='bild av Röysö'></img>
+        </div>
     </div>
 </div>
 </main>

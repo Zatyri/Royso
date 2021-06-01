@@ -1,51 +1,94 @@
 /* shop */
 .mainShop {
   background-color: var(--accent-color);
-}
+  h2 {
+    font-size: 3em;
+    margin-bottom: 0.7em;
+    text-align: center;
+  }
 
-.inputForm {
-  display: flex;
-  justify-content: center;
-  margin-top: 0.5em !important;
-}
+  .inputForm {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5em !important;
 
-.inputForm form {
-  width: 50%;
-  background-color: var(--accent-color);
-  padding: 0.5em 5em 2em;
-  border-radius: 30px;
-  box-shadow: 1px 1px 10px black;
-}
+    h3 {
+      font-size: 2em;
+    }
 
-.inputForm .inputContainer {
-  display: flex;
-  flex-direction: column;
-  margin-top: 0.5em;
-}
+    form {
+      width: 50%;
+      background-color: var(--accent-color);
+      padding: 0.5em 5em 2em;      
+      box-shadow: 1px 1px 10px black;
+    }
 
-.inputContainer {
-  width: 100%;
-  font-weight: bold;
-}
+    .inputContainer {
+      display: flex;
+      flex-direction: column;
+      margin-top: 0.5em;
+      width: 100%;
+      font-weight: bold;
+      
+     
 
-.inputContainer label {
-  width: 100%;
-  margin-bottom: 0.2em;
-  padding: 0.5em 0;
-}
+      div {
+        display: flex;
+        justify-content: flex-start; 
+        align-items: center;
+        
+        .checkbox {
+          width: 50px;
+        }
 
-.inputContainer input {
-  width: 100%;
-  padding: 5px 2px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  background-color: #f8f8f8;
-  font-size: 16px;
-}
+        .bookAmount {
+          max-width: 75px;
+        }
 
-.inputContainer input:focus {
-  outline: unset !important;
+        label {
+          width: unset;
+          margin-right: 1em;
+        }
+      }
+
+      label {
+        width: 100%;
+        margin-bottom: 0.2em;
+        padding: 0.2em 0;
+        
+
+        span {
+          font-size: 0.8em;
+          font-weight: normal !important;
+        }
+
+        a {
+          margin: 0 !important;
+          text-decoration: underline;
+          color: gray;
+        }
+      }
+
+      input {
+        width: 100%;
+        padding: 5px 2px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+        font-size: 16px;
+
+      }
+      input:focus {
+        outline: unset !important;
+      }
+
+     
+    }
+    .notification {
+      margin: 1em 0;
+    }
+  }
 }
 
 .mainShop img {
@@ -59,6 +102,32 @@
 }
 
 .shopImage {
-  box-shadow: 0 0 5px black;
-  padding: 0 !important;
+  img {
+    box-shadow: 0 0 5px black;
+    padding: 0 !important;
+  }
+}
+
+@media (max-width: 720px) {  
+
+  form {
+    width: 90% !important;
+    padding: 0.5em 2em 2em !important;    
+  }
+}
+
+@media (max-width: 400px) {  
+  h3 {
+    font-size: 1.2em !important;
+  }
+
+  .inputContainer{
+    div{
+      flex-direction: column;
+    }
+  }
+
+  form {    
+    padding: 0.5em 1em 2em !important;    
+  }
 }

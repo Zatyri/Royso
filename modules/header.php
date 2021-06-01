@@ -1,7 +1,7 @@
 <div class='container'>
   <div class='headerTextContainer'>
     <div class='headerText'>
-      <img id='headerImage' src='./media/pictures/bokenbild_Medium.png' alt="Bild av permbilden - En träbåt med kvinna i fören" />
+      <img id='headerImage' src='./media/pictures/royso_bok_foto.png' alt="Bild av permbilden - En träbåt med kvinna i fören" />
       <h3>Röysöarkipelagen</h3>
       <h4>En återblick på den tid vi hade tillsammans</h4>
       <h5>Av Ulf Gustafsson</h5>

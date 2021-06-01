@@ -1,0 +1,18 @@
+.tack {
+  background-color: var(--accent-color);
+  padding: 2em;
+
+  div{
+    margin-bottom: 2em;
+  }
+}
+
+@media (max-width: 400px) {  
+
+ .tack {
+   h1{
+     font-size: 2em;
+   }
+ 
+ }
+}
