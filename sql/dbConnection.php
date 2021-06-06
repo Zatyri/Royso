@@ -1,5 +1,19 @@
 <?php
 require './environment.php';
+
+function errorMail($cust, $dbError){
+  $message = "Ett fel uppstod: \r\n
+  Kunden: " . print_r($cust) . " \r\n
+  Databas fel: " . $dbError;
+  $email = [
+    'to' => 'oskar@royso.fi',      
+    'subject' => 'Ett fel uppstod',      
+    'message' => $message
+  ];
+  mail($email['to'], $email['subject'], $email['message']);
+}
+
+
 function saveOrderToDb($customer)
 {
   $host = $_ENV['serverName'];
@@ -19,7 +33,7 @@ function saveOrderToDb($customer)
   //check if customer exists
   $stmt = $conn->prepare("SELECT `id` FROM `customers` WHERE `mail` = ?"); 
   $stmt->bind_param('s', $customer['mail']);
-  if(!$stmt->execute()){   
+  if(!$stmt->execute()){      
     errorMail($customer, $stmt->error); 
     die("Det uppstod ett fel i databasen, var god försök igen. 1");
   }  
@@ -42,8 +56,9 @@ function saveOrderToDb($customer)
       $customer['mail']
     );
 
-    if(!$stmt->execute()){      
+    if(!$stmt->execute()){           
       errorMail($customer, $stmt->error);
+        
       die("Det uppstod ett fel i databasen, var god försök igen. 2");
     }  
     $customerId = $stmt->insert_id; 
@@ -61,7 +76,7 @@ function saveOrderToDb($customer)
     $customer['amount']
   );
  
-  if(!$stmt->execute()){
+  if(!$stmt->execute()){    
     errorMail($customer, $stmt->error);
     die("Det uppstod ett fel i beställningen, var god och pröva pånytt. Om felet upprepas bör du kontakta oss på ulf@royso.fi 
     eller kontakta oss via länken i nedra hörnet");
@@ -72,14 +87,3 @@ function saveOrderToDb($customer)
   return $orderSuccess;
 }
 
-function errorMail($cust, $dbError){
-  $message = "Ett fel uppstod: \r\n
-  Kunden: " . print_r($cust) . " \r\n
-  Databas fel: " . $dbError;
-  $email = [
-    'to' => 'oskar@royso.fi',      
-    'subject' => 'Ett fel uppstod',      
-    'message' => $message
-  ];
-  mail($email['to'], $email['subject'], $email['message']);
-}

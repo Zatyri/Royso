@@ -117,7 +117,7 @@ if (filter_has_var(INPUT_POST, 'submitButton')) {
     } 
   }
   if(!$hasError){
-    $orderSuccess = saveOrderToDb($customer);
+    $orderSuccess = saveOrderToDb($customer);    
   } 
   if($orderSuccess){
     $message = "Hurra! Ny beställning av boken! \r\n 
