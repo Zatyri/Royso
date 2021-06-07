@@ -1,42 +1,5 @@
 <?php
-require '../environment.php';
-
-
-function getOrders()
-{
-  $host = $_ENV['serverName'];
-  $userName = $_ENV['username'];
-  $password = $_ENV['password'];
-  $dbName = 'roysofi_royso';
-
-  $conn = new mysqli($host, $userName, $password, $dbName);
-  if ($conn->connect_error) {
-    die("Connection to database failed " . $conn->connect_error);
-  }
-
-
-  $sql = "SELECT o.customer, o.amount, o.date, o.payed, o.delivered, c.id, c.name 
-  FROM `orders` AS `o` 
-  JOIN `customer` AS `c` 
-  ON o.customer = c.id
-  ORDER BY o.date, c.name";
-
-  $orders = $conn->query($sql);
-
-  if ($orders->num_rows > 0) {
-    while ($row = $orders->fetch_assoc()) {
-      echo "<tr>
-      <td> <a href='./kund.php?id=" . $row['id'] ."'>" . $row['name'] . "</a></td>
-      <td>" . $row['amount'] . "</td>
-      <td>" . $row['payed'] . "</td>
-      <td>" . $row['delivered'] . "</td>
-      <td>" . $row['date'] . "</td>
-      </tr>";
-    }
-  }
-
-  $conn->close();
-}
+require './adminAPI.php';
 
 ?>
 <!DOCTYPE html>
@@ -74,7 +37,7 @@ function getOrders()
     </tr>
     </thead>
     <?php
-    getOrders();
+    getAllOpenOrders();
     ?>
   </table>
 </body>

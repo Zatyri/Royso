@@ -42,8 +42,9 @@ function saveOrderToDb($customer)
   $stmt->close();
 
   //add new customer if one does not exist
+  
   if (!$customerId) {
-    $stmt = $conn->prepare("INSERT INTO `customers`(`name`, `company`, `adress`, `zipcode`, `city`, `phone`, `mail`) VALUES (?,?,?,?,?,?,?)");
+    $stmt = $conn->prepare("INSERT INTO `customers` (`name`, `company`, `adress`, `zipcode`, `city`, `phone`, `mail`) VALUES (?,?,?,?,?,?,?)");
     
     $stmt->bind_param(
       'sssssis',
@@ -54,11 +55,11 @@ function saveOrderToDb($customer)
       $customer['area'],
       $customer['phone'],
       $customer['mail']
-    );
-
-    if(!$stmt->execute()){           
+    );    
+    if(!$stmt->execute()){     
+          
       errorMail($customer, $stmt->error);
-        
+      
       die("Det uppstod ett fel i databasen, var god försök igen. 2");
     }  
     $customerId = $stmt->insert_id; 
@@ -81,6 +82,7 @@ function saveOrderToDb($customer)
     die("Det uppstod ett fel i beställningen, var god och pröva pånytt. Om felet upprepas bör du kontakta oss på ulf@royso.fi 
     eller kontakta oss via länken i nedra hörnet");
   }  
+  
   $stmt ->close();
   $conn ->close();
 

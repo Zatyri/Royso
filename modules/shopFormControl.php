@@ -118,6 +118,7 @@ if (filter_has_var(INPUT_POST, 'submitButton')) {
   }
   if(!$hasError){
     $orderSuccess = saveOrderToDb($customer);    
+    echo $orderSuccess;
   } 
   if($orderSuccess){
     $message = "Hurra! Ny beställning av boken! \r\n 
