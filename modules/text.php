@@ -43,7 +43,7 @@
     </div>
   </div>
   <p>
-    När torparlagen trädde i kraft så sålde torparna parceller för att kunna lösa in sina arrenden.
+    När torparlagen trädde i kraft kunde skärgårdsborna lösa in sina arrenden i skärgården.
     De som hade stora marker att sälja blev förmögna medan de som saknade blev utan.
   </p>
   <div class="flex  flexRow flexWrap">

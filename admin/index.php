@@ -16,6 +16,11 @@ require './adminAPI.php';
 
 <body>
   <h1>Öppna beställningar</h1>
+
+  <form action='./index' method='get'>
+    <input type="hidden" name="all" value="true">
+    <button class="btn btn-primary" type="submit">Visa alla beställningar</button>
+  </form>
   <table class="table table-striped">
   <thead class="thead-dark">
     <tr>
@@ -37,7 +42,11 @@ require './adminAPI.php';
     </tr>
     </thead>
     <?php
-    getAllOpenOrders();
+    if(!isset($_GET['all'])){
+      getAllOpenOrders();
+    }else {
+      getAllOrders();
+    }
     ?>
   </table>
 </body>

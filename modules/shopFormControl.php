@@ -127,7 +127,8 @@ if (filter_has_var(INPUT_POST, 'submitButton')) {
     adress: " . $customer['adress'] . ", " . $customer['zipcode'] . ", " . $customer['area'] . "\r\n
     tel: " . $customer['phone'] . "\r\n
     email: " . $customer['mail'] . "\r\n
-    antal böcker: " . $customer['amount'] . "st"; 
+    antal böcker: " . $customer['amount'] . "st \r\n
+    Visa alla beställningar: www.royso.fi/admin/index"; 
     $email = [
       'to' => 'ulf@royso.fi',      
       'subject' => 'Ny beställning av: ' . $customer['name'],      
